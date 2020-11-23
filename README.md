@@ -5,12 +5,12 @@ Simply download the three provided files and copy them into your spigot source f
 
 functions:
 
-`gsUtils.gatherItems(Player)` returns ArrayList of all items in players inventory
-`gsUtils.isValid(ItemStack)` returns true if the item specified is not air or null
-`gsUtils.countItems(List<ItemStack>)` returns the number of items in a ItemStack ArrayList
-`gsUtils.createGravestone(Player, Location)` creates a gravestone for teh specified player at the specified location
-Notice: the chestHandler class works directly with the gsUtils class and can not be used seprate
-`blockHandler.setBlock(Location, Material)` sets the specified block at the specified location, returns BlockState
+`gsUtils.gatherItems(Player)` returns ArrayList of all items in players inventory,  
+`gsUtils.isValid(ItemStack)` returns true if the item specified is not air or null,  
+`gsUtils.countItems(List<ItemStack>)` returns the number of items in a ItemStack ArrayList,  
+`gsUtils.createGravestone(Player, Location)` creates a gravestone for teh specified player at the specified location,  
+Notice: the chestHandler class works directly with the gsUtils class and can not be used seprate,  
+`blockHandler.setBlock(Location, Material)` sets the specified block at the specified location, returns BlockState  
 
 Ex:
 
