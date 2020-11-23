@@ -21,7 +21,7 @@ Ex:
                         World world = player.getWorld
                 
                         if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
-                        event.getDrops().clear()
+                        event.getDrops().clear();
                         }
                 }
 
