@@ -16,12 +16,12 @@ Ex:
 
                public class Listeners implements Listener {
                         public void PlayerDeath (PlayerDeathEvent event) {
-                        Player player = event.getEntity().getPlayer();
-                        Location loc = player.getLocation();
-                        World world = player.getWorld
+                          Player player = event.getEntity().getPlayer();
+                          Location loc = player.getLocation();
+                          World world = player.getWorld
                 
-                        if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
-                        event.getDrops().clear();
+                          if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
+                          event.getDrops().clear();
                         }
                 }
 
