@@ -14,16 +14,16 @@ Notice: the chestHandler class works directly with the gsUtils class and can not
 
 Ex:
 
-``public class Listeners implements Listener {
-        public void PlayerDeath (PlayerDeathEvent event) {
-                Player player = event.getEntity().getPlayer();
-                Location loc = player.getLoaction();
-                World world = player.getWorld
+               ` public class Listeners implements Listener {
+                        public void PlayerDeath (PlayerDeathEvent event) {
+                        Player player = event.getEntity().getPlayer();
+                        Location loc = player.getLoaction();
+                        World world = player.getWorld
                 
-                if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
-                event.getDrops().clear()
-        }
-}``
+                        if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
+                        event.getDrops().clear()
+                        }
+                }`
 
 Using blockHandler.setBlock
 
