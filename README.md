@@ -27,4 +27,4 @@ Ex:
 
 Using blockHandler.setBlock
 
-`Chest chest = (Chest) blockHandler.setBlock(Loaction, Material.CHEST);`
+`Chest chest = (Chest) blockHandler.setBlock(Location, Material.CHEST);`
