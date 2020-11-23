@@ -17,7 +17,7 @@ Ex:
                public class Listeners implements Listener {
                         public void PlayerDeath (PlayerDeathEvent event) {
                         Player player = event.getEntity().getPlayer();
-                        Location loc = player.getLoaction();
+                        Location loc = player.getLocation();
                         World world = player.getWorld
                 
                         if (!world.getGameRuleValue(GameRule.KEEP_INVENTORY)) gsUtils.createGravestone(player, loc);
